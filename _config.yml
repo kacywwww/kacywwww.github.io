@@ -1,14 +1,25 @@
+theme: "minima" #theme setting , still studying
+
 title: "Kacy's Blogs"
 author: "Kacy Wong"
+
+#set timezone to sync the project time
+timezone: Etc/UTC
+
+#set to false for NOT publishing future post
+future: false 
+
+# Description of the blog
+# This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 description: "Just a learning record."
-#"Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+ 
 
 # Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
+github_username: "kacywwww"
+linkedin_username: "Kacy Wong"
+
 #email: "example@mail.com"
 #twitter_username: "twitteruser"
-github_username: "kacywwww"
-linkedin_username: "additlater"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -16,17 +27,18 @@ linkedin_username: "additlater"
 #youtube_username: username
 #googleplus_username: +username
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
-
 rss: rss
+  
 
+
+#Dsiable highlighter, where GitHub page not support highlighter
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
+
+# plugin: jekyll
+ 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
