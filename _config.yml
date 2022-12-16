@@ -53,3 +53,8 @@ defaults:
       type: post
     values:
       tags: Other
+      
+#add tag for grouping related post
+collections:
+ tag:
+  output: true
