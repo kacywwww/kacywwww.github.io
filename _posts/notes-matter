@@ -1,0 +1,13 @@
+ EFR32 is handling the callback and the server to device function though the class "AppTask" ... 
+ however, silabs handle update function only , 
+ server sends command and device update the data to UI but without device->server data sending.ESP is using VerifyOrExit. 
+ 
+ There are some attributeId like "ZCL_CURRENT_LEVEL_ATTRIBUTE_ID"/"ZCL_CURRENT_POSITON_ATTERIBUTE_ID". 
+ The definition is in "connrctedhomip/zzz_generated/app-common/app-common/zap-generated"
+ 1) attribute-id.h  
+ 2) cluster-id.h
+ 
+ Added an case for handling "Thermostat" in the callbacks (ZCL_THERMOSTAT_CLUSTER_ID,ZCL_LOCAL_TEMPERATURE_ATTRIBUTE_ID)  
+ Add call back funcion which copy from color control
+ emberAfReadServerAttribute(endpointId, Clusters::ColorControl::Id, ZCL_COLOR_CONTROL_CURRENT_HUE_ATTRIBUTE_ID, &hue,
+                                       sizeof(uint8_t));
