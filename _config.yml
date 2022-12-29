@@ -1,4 +1,4 @@
-theme: "lanyon" #"minima" #theme setting , still studying
+theme: "minima" #theme setting , still studying  "lanyon"? #
 
 title: "Kacy's Blogs"
 author: "Kacy Wong"
@@ -55,6 +55,6 @@ defaults:
       tags: Other
       
 #add tag for grouping related post
-#collections:
-# tag:
-#  output: true
+collections:
+ tag:
+  output: true
