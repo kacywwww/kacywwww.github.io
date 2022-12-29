@@ -55,6 +55,6 @@ defaults:
       tags: Other
       
 #add tag for grouping related post
-collections:
- tag:
-  output: true
+#collections:
+# tag:
+#  output: true
