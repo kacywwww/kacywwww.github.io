@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Welcome to my Blog</title><url>/blog.html</url><categories/><tags/><content type="html"> Hello everyone,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Welcome to my Blog</title><url>/welcome.html</url><categories/><tags/><content type="html"> Hello everyone,
 Welcome to my blog!
 Why GitHub Pages? Github page is offering free online static page. Starting a static page in github maybe is a easier way for individuals who prefer not to rely on existing online blog platforms.
 Unlike holding a website server on AWS which can be costly and vulnerable to random attacks from online sources, GitHub Pages provides a user-friendly solution for those who simply want to manage a blog without the complexities of traditional web hosting.
@@ -9,4 +9,4 @@ Stay Hungry Stay Foolish
 Let&amp;rsquo;s embrace our curiosity and never stop seeking new knowledge.
 Thank you for joining me on this exciting blogging journey. I look forward to sharing valuable content and connecting with you all!</content></entry><entry><title>About Me</title><url>/about.html</url><categories/><tags/><content type="html"> About Me
 Is Me Just want to record the learning process</content></entry><entry><title>BLOG LIST</title><url>/bloglist.html</url><categories/><tags/><content type="html"> Here is the List of the blog
-Welcome: Blog</content></entry></search>
+Welcome Blog</content></entry></search>
